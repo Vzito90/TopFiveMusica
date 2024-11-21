@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <script src ="oggetti.js">  </script>
+    <title>Document</title>
+    <style>
+        img {
+            width: 40px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>la mia compilation</h1>
+        <table class = "striped">
+            <thead>
+              <tr>
+                  <th>id</th>
+                  <th>Name</th>
+                  <th>Item Name</th>
+                  <th>Item Price</th>
+                  <th>url</th>
+              </tr>
+            </thead>
+    
+            <tbody id ="tab">
+              
+            </tbody>
+          </table>
+
+          <div class="input-field col s12" id="sel1">
+            <select id="sele1">
+              
+            </select>
+            <label>Materialize Select</label>
+          </div>
+          <div class="input-field col s13" id="sel2">
+            <select id="sele2">
+              
+            </select>
+            <label>Materialize Select</label>
+          </div>
+          <button id="btn">Cambia Posizione</button>
+
+          <hr>
+          <h3>inserisci canzone</h3>
+          <br>
+          <label>Titolo</label>
+          <input type ="text" id="titolo" required>
+          <br>
+          <label>Autore</label>
+          <input type ="text" id="autore" required>
+          <br>
+          <label>anno</label>
+          <input type ="text" id="anno" required>
+          <br>
+          <label>Url</label>
+          <input type ="text" id="url" required>
+          <br>
+          <label>Posizione</label>
+          <input type ="text" id="posizione" required type="number">
+          <button id="btnInp">Aggiungi</button>
+          
+    </div>
+    
+</body>
+</html>
